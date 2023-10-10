@@ -31,8 +31,8 @@ body {
 }
   
 #myBtn:hover {
-    background-color: #555;
-    color: plum;
+    background-color: rgb(148, 188, 89);
+    
 }
 
 /*****HEADER*****/

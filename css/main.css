@@ -38,23 +38,24 @@ body {
 
 /*****HEADER*****/
 
-#intro .name {
+#intro {
     width: 80%;
-    display:inline-block;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5%;
-}
-
-.name h1 {
-    font-size: 20px;
-    text-align: left;
+    padding-top: 3%;
     padding-left: 10%;
 }
 
+.name h1 {
+    font-size: 160%;
+    text-align: left;
+    width: 100%;
+}
+
 nav {
-   width: 40%;
+    width: 40%;
     text-align: right;
+    padding-left: 35%;
 }
 
 nav ul {
@@ -62,12 +63,12 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
-    padding-right: 10%;
+    
 }
 
 nav ul li a {
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(29, 83, 29);
 }

@@ -9,6 +9,8 @@ body {
     color: black;
     font-size: 15px;
     overflow-x: hidden;
+    
+    text-align: center;
 }
 
 /**BACK TO TOP BUTTON**/
@@ -32,7 +34,36 @@ body {
   
 #myBtn:hover {
     background-color: rgb(148, 188, 89);
-    
 }
 
 /*****HEADER*****/
+
+.name {
+    width: 80%;
+}
+
+.name h1 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+nav {
+    width: 80%;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(29, 83, 29);
+}

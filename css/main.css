@@ -43,6 +43,7 @@ body {
     display:inline-block;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5%;
 }
 
 .name h1 {
@@ -61,7 +62,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
-    padding-right: ;
+    padding-right: 10%;
 }
 
 nav ul li a {

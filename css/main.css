@@ -72,3 +72,11 @@ nav ul li a {
     font-size: 20px;
     color: rgb(29, 83, 29);
 }
+
+.welcome {
+    padding-top: 5%;
+}
+
+#about {
+    padding: 5% 0;
+}

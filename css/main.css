@@ -9,7 +9,6 @@ body {
     color: black;
     font-size: 15px;
     overflow-x: hidden;
-    
     text-align: center;
 }
 
@@ -75,28 +74,39 @@ nav ul li a {
 
 .welcome {
     padding-top: 5%;
+
 }
 
 /*****ABOUT*****/
 
 #about {
     padding: 5% 0;
+    width: 80%;
+    padding-left: 10%;
 }
 
 /*****HEALTH*****/
 
 #health {
     padding: 5% 0;
+    width: 80%;
+    padding-left: 10%;
 }
 
 /*****SKILLS*****/
 
 #skills {
     padding: 5% 0;
+    width: 80%;
+    padding-left: 10%;
 }
 
 /*****CONTACT*****/
 
 #contact {
     padding: 5% 0;
+}
+
+.end {
+    padding: 5% 0 3% 0;
 }

@@ -77,6 +77,26 @@ nav ul li a {
     padding-top: 5%;
 }
 
+/*****ABOUT*****/
+
 #about {
+    padding: 5% 0;
+}
+
+/*****HEALTH*****/
+
+#health {
+    padding: 5% 0;
+}
+
+/*****SKILLS*****/
+
+#skills {
+    padding: 5% 0;
+}
+
+/*****CONTACT*****/
+
+#contact {
     padding: 5% 0;
 }

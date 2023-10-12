@@ -73,20 +73,31 @@ nav ul li a:hover {
 .welcome {
     padding: 3% 10%;
     width: 80%;
-   
-    
 }
 
 /*****ABOUT*****/
 
 #about {
     padding: 5% 0;
-    width: 80%;
     padding-left: 10%;
+    background-color: #396a51;
 }
 
-.about h2 {
-    font-size: 130%;
+.body h2 {
+    font-size: 180%;
+    color: #ECECA9;
+    font-weight:bolder;
+}
+
+.body p, a {
+    color: #c7c76e;
+    width: 90%;
+    line-height: 140%;
+}
+
+.body h3 {
+    color: #ECECCA;
+    font-size: 150%;
 }
 
 /*****HEALTH*****/

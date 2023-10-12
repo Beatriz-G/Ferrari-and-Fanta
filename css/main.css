@@ -39,7 +39,7 @@ body {
 #intro{
     padding-top: 5%;
     background-color: rgb(137, 200, 137);
-    text-align: center;
+    text-align: left;
 }
 
 .name h1 {
@@ -71,8 +71,8 @@ nav ul li a:hover {
 }
 
 .welcome {
-    padding: 3% 5%;
-    
+    padding: 3% 10%;
+    width: 80%;
    
     
 }

@@ -85,6 +85,10 @@ nav ul li a:hover {
     padding-left: 10%;
 }
 
+.about h2 {
+    font-size: 130%;
+}
+
 /*****HEALTH*****/
 
 #health {

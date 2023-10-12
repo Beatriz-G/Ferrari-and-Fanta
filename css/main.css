@@ -92,7 +92,7 @@ nav ul li a:hover {
 .body p, a {
     color: #c7c76e;
     width: 90%;
-    line-height: 140%;
+    line-height: 170%;
 }
 
 .body h3 {
@@ -104,8 +104,8 @@ nav ul li a:hover {
 
 #health {
     padding: 5% 0;
-    width: 80%;
     padding-left: 10%;
+    background-color: rgb(137, 200, 137);
 }
 
 /*****SKILLS*****/

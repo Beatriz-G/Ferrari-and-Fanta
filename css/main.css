@@ -89,15 +89,15 @@ nav ul li a:hover {
     font-weight:bolder;
 }
 
+.body h3 {
+    color: #ECECCA;
+    font-size: 150%;
+}
+
 .body p, a {
     color: #c7c76e;
     width: 90%;
     line-height: 170%;
-}
-
-.body h3 {
-    color: #ECECCA;
-    font-size: 150%;
 }
 
 /*****HEALTH*****/
@@ -105,25 +105,75 @@ nav ul li a:hover {
 #health {
     padding: 5% 0;
     padding-left: 10%;
-    background-color: rgb(137, 200, 137);
+    background-color: #457e61;
+}
+
+.health-safety h2 {
+    font-size: 180%;
+    color: #ECECA9;
+    font-weight:bolder;
+}
+
+.health-safety h3 {
+    color: #ECECCA;
+    font-size: 150%;
+}
+
+.health-safety p {
+    width: 90%;
+    line-height: 170%;
+    color: #c7c76e;
 }
 
 /*****SKILLS*****/
 
 #skills {
     padding: 5% 0;
-    width: 80%;
     padding-left: 10%;
+    background-color: #4d9871;
+}
+
+.abilities h2 {
+    font-size: 180%;
+    color: #ECECA9;
+    font-weight:bolder;
+}
+
+.abilities p {
+    width: 90%;
+    line-height: 170%;
+    color: #d5d572;
 }
 
 /*****CONTACT*****/
 
 #contact {
     padding: 5% 0;
+    padding-left: 10%;
+    background-color: beige;
+}
+
+.find h2 {
+    font-size: 180%;
+    color: #3F1D0B;
+    font-weight:bolder;
+}
+
+.find p {
+    color: darkgoldenrod;
+}
+
+.icon-link a i {
+    color:rgb(29, 83, 29);
+    font-size: 100%;
 }
 
 .end {
     padding: 5% 0 3% 0;
+}
+
+.end h3 {
+    font-size: 100%;
 }
 
 /******MEDIA SCREEN TABLET*****/

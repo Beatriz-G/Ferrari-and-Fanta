@@ -9,7 +9,6 @@ body {
     color: black;
     font-size: 15px;
     overflow-x: hidden;
-    text-align: center;
 }
 
 /**BACK TO TOP BUTTON**/
@@ -37,26 +36,21 @@ body {
 
 /*****HEADER*****/
 
-#intro {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 3%;
-    padding-left: 10%;
+#intro{
+    padding-top: 5%;
     background-color: rgb(117, 201, 117);
-    
+    text-align: center;
 }
 
 .name h1 {
-    font-size: 140%;
-    text-align: left;
+    font-size: 130%;
+    text-align: center;
     width: 100%;
 }
 
 nav {
     width: 40%;
-    text-align: right;
-    padding-left: 35%;
+    
 }
 
 nav ul {
@@ -72,6 +66,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: rgb(29, 83, 29);
+    
 }
 
 nav ul li a:hover {

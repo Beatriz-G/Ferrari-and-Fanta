@@ -43,7 +43,7 @@ body {
 }
 
 .name h1 {
-    font-size: 130%;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -71,8 +71,10 @@ nav ul li a:hover {
 }
 
 .welcome {
-    padding-top: 3%;
-
+    padding: 3% 5%;
+    
+   
+    
 }
 
 /*****ABOUT*****/

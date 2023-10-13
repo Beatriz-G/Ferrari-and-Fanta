@@ -21,7 +21,7 @@ body {
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: green; 
+    background-color: #ECECA9; 
     color: #555; 
     cursor: pointer; 
     padding: 14px; 
@@ -191,7 +191,6 @@ nav ul li a:hover {
 /*****DESKTOP*****/
 
     #intro {
-        width: 80%;
         display: flex;
         flex-wrap: wrap;
         padding-top: 3%;

@@ -48,7 +48,6 @@ body {
 }
 
 /*Mobile dropdown navigation*/
-
 $items: 4;
 $transition-duration: 0.5s;
 $transition-delay: 0.05s;
@@ -60,6 +59,7 @@ $transition-delay: 0.05s;
     height: 534px;
     background-color: #533557;
     overflow: hidden;
+    
 }
 
 #toggle {

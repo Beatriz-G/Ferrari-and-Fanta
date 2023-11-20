@@ -90,8 +90,7 @@ header img {
 /*****ABOUT*****/
 
 #about {
-    padding: 5% 0;
-    padding-left: 10%;
+    padding: 5% 0 5% 10%;
     background-color: #396a51;
 }
 
@@ -115,8 +114,7 @@ header img {
 /*****HEALTH*****/
 
 #health {
-    padding: 5% 0;
-    padding-left: 10%;
+    padding: 5% 0 5% 10%;
     background-color: #457e61;
 }
 
@@ -140,8 +138,7 @@ header img {
 /*****SKILLS*****/
 
 #skills {
-    padding: 5% 0;
-    padding-left: 10%;
+    padding: 5% 0 5% 10%;
     background-color: #4d9871;
 }
 
@@ -160,8 +157,7 @@ header img {
 /*****SLIDESHOW*****/
 
 #slideshow {
-    padding: 5% 0;
-    padding-left: 10%;
+    padding: 5% 0 5% 10%;
     background-color: #64b98e;
 }
 
@@ -186,23 +182,25 @@ header img {
     max-width: 900px;
     position: relative;
     margin: auto;
+   
 }
 
 .text {
     color: #f2f2f2;
     font-size: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     position: absolute;
     bottom: 8px;
-    width: 150px;
+    width: 200px;
     text-align: center;
+    padding-left: 10%;
 }
 
 .numbertext {
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
+    padding: 5px;
+    text-align: center;
     top: 0;
 }
 

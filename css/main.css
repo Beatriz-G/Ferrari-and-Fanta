@@ -173,12 +173,13 @@ header img {
 
 .img-section {
     display: none;
-    
 }
 .img-section img {
     vertical-align: middle;
     border-radius: 10%;
     max-width: 70%;
+    margin-left: 10%;
+    margin-bottom: 15%;
 }
 
 .images {

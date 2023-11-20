@@ -158,14 +158,13 @@ header img {
 }
 
 /*****SLIDESHOW*****/
-.slideshow {
-    max-width: 100%;
+.img-section {display: none}
+img {vertical-align: middle;}
+
+.images {
+    max-width: 1000px;
     position: relative;
     margin: auto;
-}
-
-.img-section {
-    display: none;
 }
 
 .prev, .next {

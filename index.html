@@ -164,35 +164,36 @@
             <section id="slideshow">
                 <h2>Aren't we cute!</h2>
                 <div class="images">
-                    
-                        <div class="img-section fade">
-                            <div class="numbertext"> 1 / 5</div>
-                            <img src="img/ferrari-sleeping.png" style="width:70%">
-                            <div class="text">Fanta and Ferrari relaxing</div>
-                        </div>
-                        <div class="img-section fade">
-                            <div class="numbertext"> 2 / 5</div>
-                            <img src="img/nosy.png" style="width:70%">
-                            <div class="text">Ferrari and Fanta being nosy</div>
-                        </div>
-                        <div class="img-section fade">
-                            <div class="numbertext"> 3 / 5</div>
-                            <img src="img/ferrari-full.png" style="width:70%">
-                            <div class="text">Ferrari posing for the camera</div>
-                        </div>
-                        <div class="img-section fade">
-                            <div class="numbertext"> 4 / 5</div>
-                            <img src="img/fanta-fry.png" style="width:70%">
-                            <div class="text">Fanta enjoying her fry</div>
-                        </div>
-                        <div class="img-section fade">
-                            <div class="numbertext"> 5 / 5</div>
-                            <img src="img/ferrari-fry.png" style="width:70%">
-                            <div class="text">Ferrari enjoying her fry</div>
-                        </div>
+                    <div class="img-section fade">
+                        <div class="numbertext"> 1 / 5</div>
+                        <img src="img/ferrari-sleeping.png" style="width:70%">
+                        <div class="text">Fanta and Ferrari relaxing</div>
+                    </div>
+                    <div class="img-section fade">
+                        <div class="numbertext"> 2 / 5</div>
+                        <img src="img/nosy.png" style="width:70%">
+                        <div class="text">Ferrari and Fanta being nosy</div>
+                    </div>
+                    <div class="img-section fade">
+                        <div class="numbertext"> 3 / 5</div>
+                        <img src="img/ferrari-full.png" style="width:70%">
+                        <div class="text">Ferrari posing for the camera</div>
+                    </div>
+                    <div class="img-section fade">
+                        <div class="numbertext"> 4 / 5</div>
+                        <img src="img/fanta-fry.png" style="width:70%">
+                        <div class="text">Fanta enjoying her fry</div>
+                    </div>
 
-                        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095</a>
+                    <div class="img-section fade">
+                        <div class="numbertext"> 5 / 5</div>
+                        <img src="img/ferrari-fry.png" style="width:100%">
+                        <div class="text">Ferrari enjoying her fry</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                        
                 </div>
                 <br>
 
@@ -205,6 +206,22 @@
                 </div>
 
                 <script>
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("img-section");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "block";
+                    setTimeout(showSlides, 6000); // Change image every 2 seconds
+                    }
+
+/***
                     let slideIndex = 1;
                     showSlides(slideIndex);
 
@@ -231,6 +248,8 @@
                         slides[slideIndex-1].style.display = "block";
                         dots[slideIndex-1].className += " active";
                     }
+
+                **/
                 </script>
             </section>
             <footer>

@@ -157,7 +157,7 @@ header img {
 /*****SLIDESHOW*****/
 
 #slideshow {
-    padding: 5% 0 5% 10%;
+    padding: 5% 0 5% 0;
     background-color: #64b98e;
 }
 
@@ -165,16 +165,18 @@ header img {
     font-size: 180%;
     color: #ECECA9;
     font-weight:bolder;
+    text-align: center;
 }
 
 .img-section {
     display: none;
 }
+
 .img-section img {
     vertical-align: middle;
     border-radius: 10%;
     max-width: 70%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 15%;
 }
 
@@ -182,26 +184,15 @@ header img {
     max-width: 900px;
     position: relative;
     margin: auto;
-   
 }
 
 .text {
     color: #f2f2f2;
     font-size: 10px;
-    padding-bottom: 10px;
     position: absolute;
     bottom: 8px;
     width: 200px;
-    text-align: center;
-    padding-left: 10%;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 5px;
-    text-align: center;
-    top: 0;
+    padding: 0 0 10px 20%;
 }
 
 .fade {

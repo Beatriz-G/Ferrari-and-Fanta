@@ -29,7 +29,34 @@
         </script>
         <header>
             <section id="intro">
-                <div class="name">
+               
+                <div class="topnav">
+                    <a href="#home" class="active">The Jewels of Ontario</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                  </a>
+                    <div id="myLinks">
+                        <a href="#about">About</a>
+                        <a href="#health">Health</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#slideshow">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    
+                </div>
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("myLinks");
+                      if (x.style.display === "block") {
+                        x.style.display = "none";
+                      } else {
+                        x.style.display = "block";
+                      }
+                    }
+                    </script>
+
+                <!--  
+                    <div class="name">
                     <h1>
                         The Jewels Of Ontario
                     </h1>
@@ -42,6 +69,8 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+                -->
+
                 <img src="img/ferranta.png" alt="Ferrari and Fanta">
                 <div class="welcome">
                     <h2>

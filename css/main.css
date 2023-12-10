@@ -34,18 +34,6 @@ body {
     background-color: rgb(148, 188, 89);
 }
 
-/*****HEADER*****/
-
-#intro {
-    background-color: rgb(137, 200, 137);
-    text-align: left;
-}
-
-.name h1 {
-    font-size: 170%;
-    text-align: center;
-}
-
 /*****NAVIGATION*****/
 .topnav {
     overflow: hidden;
@@ -87,32 +75,16 @@ body {
     color: black;
 }
 
+/*****HEADER*****/
 
-/*
-nav {
-    width: 45%;
-    padding-left: 20%;
+#intro {
+    background-color: rgb(137, 200, 137);
+    text-align: left;
 }
 
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style-type: none;
+.name {
+    display: none;
 }
-
-nav ul li a {
-    text-transform: lowercase;
-    text-decoration: none;
-    font-size: 18px;
-    color: rgb(13, 63, 13);
-}
-
-nav ul li a:hover {
-    color: rgb(225, 87, 110);
-}
-*/
-
 
 header img {
     display: block;
@@ -302,6 +274,56 @@ header img {
 /******MEDIA SCREEN TABLET*****/
 
 @media screen and (min-width: 760px) { 
+
+    /*****NAVIGATION*****/
+    .topnav {
+        display: none;
+    }
+
+    .name {
+        display: inline;
+        width: 100%;
+    }
+
+    .name h1 {
+        font-size: 170%;
+        text-align: center;
+    }
+    
+    .name nav {
+        width: 100%;
+        
+    }
+    
+    .name nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    
+    .name nav ul li a {
+        text-transform: lowercase;
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(13, 63, 13);
+    }
+    
+    .name nav ul li a:hover {
+        color: rgb(225, 87, 110);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

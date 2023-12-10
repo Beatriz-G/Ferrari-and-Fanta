@@ -47,6 +47,7 @@ body {
     text-align: center;
 }
 
+/*****NAVIGATION*****/
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -64,8 +65,8 @@ body {
     display: block;
   }
   
-  .topnav a.icon {
-    background: black;
+  .topnav a.icon{
+    background: #04AA6D;
     display: block;
     position:sticky;
     right: 0;
@@ -73,12 +74,12 @@ body {
     width: 100%;
   }
   
-  .topnav a:hover {
+  .topnav a:hover .active {
     background-color: #ddd;
     color: black;
   }
 
-  .active {
+   .active {
     background-color: #04AA6D;
     color: white;
     width: 100%;
@@ -109,6 +110,8 @@ nav ul li a:hover {
     color: rgb(225, 87, 110);
 }
 */
+
+
 header img {
     display: block;
     width: 70%;

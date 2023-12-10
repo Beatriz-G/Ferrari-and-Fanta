@@ -253,7 +253,7 @@ header img {
 
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.3s;
 }
 
 @keyframes fade {
@@ -291,6 +291,10 @@ header img {
 
 .end h3 {
     font-size: 100%;
+}
+
+.name {
+    color: rgba(128, 26, 43, 0.775);
 }
 
 /******MEDIA SCREEN TABLET*****/

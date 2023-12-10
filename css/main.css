@@ -37,7 +37,6 @@ body {
 /*****HEADER*****/
 
 #intro {
-    
     background-color: rgb(137, 200, 137);
     text-align: left;
 }
@@ -51,41 +50,40 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     margin-top: 0;
-  }
+}
   
-  .topnav #myLinks {
+.topnav #myLinks {
     display: none;
-  }
+}
   
-  .topnav a {
+.topnav a {
     color: white;
     padding: 15px 15%;
     text-decoration: none;
     font-size: 120%;
     display: block;
     text-align: center;
+}
 
-  }
-
-   .fa-bars {
+.fa-bars {
     color:beige;
-  }
+}
   
-  .topnav a.icon{
+.topnav a.icon{
     background: #04AA6D;
     display: block;
     position:sticky;
     right: 0;
     top: 0;
     width: 100%;
-  }
+}
   
-  .topnav a:hover .active {
+.topnav a:hover .active {
     background-color: #ddd;
     color: black;
-  }
+}
 
 
 /*
@@ -129,6 +127,18 @@ header img {
 .welcome {
     padding: 3% 10%;
     width: 80%;
+}
+
+.welcome h2 {
+    font-size: 180%;
+}
+
+.welcome h3 {
+    font-size: 130%;
+}
+
+.welcome h4 {
+    font-size: 100%;
 }
 
 /*****ABOUT*****/

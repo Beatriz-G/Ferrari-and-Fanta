@@ -62,7 +62,7 @@ body {
     color: white;
     padding: 15px 15%;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 90%;
     display: block;
     text-align: center;
 }
@@ -78,6 +78,7 @@ body {
     right: 0;
     top: 0;
     width: 100%;
+    font-size: 125%;
 }
   
 .topnav a:hover .active {
@@ -126,7 +127,7 @@ header img {
 
 .welcome {
     padding: 3% 10%;
-    width: 80%;
+    width: 100%;
 }
 
 .welcome h2 {
@@ -139,6 +140,7 @@ header img {
 
 .welcome h4 {
     font-size: 100%;
+    line-height: 140%;
 }
 
 /*****ABOUT*****/

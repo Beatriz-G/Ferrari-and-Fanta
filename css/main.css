@@ -235,7 +235,6 @@ header img {
     to {opacity: 1}
 }
 
-
 /*****CONTACT*****/
 
 #contact {
@@ -282,9 +281,7 @@ header img {
 
     .name {
         display: inline;
-        width: 100%;
-        
-        
+        width: 100%;   
     }
 
     .name h1 {
@@ -319,7 +316,6 @@ header img {
         color: rgb(225, 87, 110);
     }
 
-
     header img {
         display: block;
         width: 40%;
@@ -332,8 +328,8 @@ header img {
         margin: auto;
     }
 
-
-
+    /*Gallery*/
+    
 
 
 

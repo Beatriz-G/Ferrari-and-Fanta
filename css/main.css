@@ -284,12 +284,15 @@ header img {
         display: inline;
         width: 100%;
         
+        
     }
 
     .name h1 {
-        font-size: 170%;
+        font-size: 190%;
         text-align: center;
-        padding-top: 10%;
+        padding: 7% 0;
+        background-color: rgb(20, 87, 20);
+        color: beige;
     }
     
     .name nav {
@@ -317,7 +320,17 @@ header img {
     }
 
 
-
+    header img {
+        display: block;
+        width: 40%;
+        height: auto;
+        border-radius: 10%;
+        border: double 7px #1e1b1c;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
 
 
 

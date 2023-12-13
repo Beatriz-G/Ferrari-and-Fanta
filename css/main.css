@@ -329,8 +329,21 @@ header img {
     }
 
     /*SLIDESHOW*/
-
-
+    
+    .img-section img {
+        max-width: 70%;
+    }
+    
+    .images {
+        max-width: 70%;
+    }
+    
+    .text {
+        font-size: 130%;
+        width: 100%;
+        text-align: center;
+    
+    }
 
 
 

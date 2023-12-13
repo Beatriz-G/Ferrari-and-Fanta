@@ -291,8 +291,8 @@ header img {
     }
     
     .name nav {
-        width: 100%;
-        
+        width: 60%;
+        text-align:justify
     }
     
     .name nav ul {

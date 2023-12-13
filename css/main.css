@@ -291,7 +291,7 @@ header img {
         font-size: 190%;
         text-align: center;
         padding: 7% 0;
-        background-color: rgb(20, 87, 20);
+        background-color: rgb(13, 60, 13);
         color: beige;
     }
     
@@ -325,7 +325,7 @@ header img {
         width: 40%;
         height: auto;
         border-radius: 10%;
-        border: double 7px #1e1b1c;
+        border: inset 7px #1e1b1c;
         justify-content: space-evenly;
         flex-direction: column;
         text-align: center;

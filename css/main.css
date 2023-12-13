@@ -283,16 +283,19 @@ header img {
     .name {
         display: inline;
         width: 100%;
+        
     }
 
     .name h1 {
         font-size: 170%;
         text-align: center;
+        padding-top: 10%;
     }
     
     .name nav {
         width: 60%;
-        text-align:justify
+        text-align:justify;
+        margin: 5% 15%;
     }
     
     .name nav ul {

@@ -1,5 +1,6 @@
 /*****BASE STYLES*****/
 * {box-sizing: border-box}
+
 html { 
     scroll-behavior: smooth;
 }
@@ -282,6 +283,7 @@ header img {
     .name {
         display: inline;
         width: 100%;   
+        overflow: hidden;
     }
 
     .name h1 {
@@ -290,12 +292,13 @@ header img {
         padding: 7% 0;
         background-color: rgb(13, 60, 13);
         color: beige;
+        margin-top: 0;
     }
     
     .name nav {
         width: 65%;
         text-align:justify;
-        margin: 5% 15%;
+        margin: 3% 15%;
     }
     
     .name nav ul {
@@ -346,34 +349,32 @@ header img {
 
 /*****1200 px screens*****/
 
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1020px)  {
 
 /*****DESKTOP*****/
 
     #intro {
-        display: flex;
         flex-wrap: wrap;
-        padding-top: 3%;
-        padding-left: 10%;
-        background-color: rgb(117, 201, 117);
-        
+        width: 100%;
+        display: inline-block;
+
     }
 
     .name h1 {
-        font-size: 140%;
+        font-size: 200%;
         text-align: left;
-        width: 100%;
+       
     }
 
     nav {
-        width: 40%;
+        width: 20%;
         text-align: right;
-        padding-left: 35%;
+       
     }
 
     nav ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:initial;
         justify-content: space-around;
         list-style-type: none;
         
@@ -391,3 +392,54 @@ header img {
     }
 
 }
+
+/*
+.name {
+    display: inline;
+    width: 100%;   
+}
+
+.name h1 {
+    font-size: 190%;
+    text-align: center;
+    padding: 7% 0;
+    background-color: rgb(13, 60, 13);
+    color: beige;
+}
+
+.name nav {
+    width: 65%;
+    text-align:justify;
+    margin: 5% 15%;
+}
+
+.name nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.name nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(13, 63, 13);
+}
+
+.name nav ul li a:hover {
+    color: rgb(225, 87, 110);
+}
+
+header img {
+    display: block;
+    width: 40%;
+    height: auto;
+    border-radius: 10%;
+    border: inset 7px #1e1b1c;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+*/

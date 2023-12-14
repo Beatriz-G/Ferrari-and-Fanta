@@ -347,29 +347,31 @@ header img {
     }
 }
 
-/*****1200 px screens*****/
+/*****MEDIA SCREEN DESKTOP*****/
 
 @media screen and (min-width: 1020px)  {
-
-/*****DESKTOP*****/
 
     #intro {
         flex-wrap: wrap;
         width: 100%;
         display: inline-block;
+    }
 
+    .name {
+        width: 100%;
+        display: flex;
+        background-color:rgb(13, 60, 13);
     }
 
     .name h1 {
         font-size: 200%;
         text-align: left;
-       
+        padding-left: 7%;
     }
 
-    nav {
-        width: 20%;
+    .name nav {
+        width: 50%;
         text-align: right;
-       
     }
 
     nav ul {
@@ -380,11 +382,11 @@ header img {
         
     }
 
-    nav ul li a {
+    .name nav ul li a {
         text-transform: lowercase;
         text-decoration: none;
         font-size: 20px;
-        color: rgb(29, 83, 29);
+        color: rgb(23, 206, 23);
     }
 
     nav ul li a:hover {
@@ -392,7 +394,6 @@ header img {
     }
 
 }
-
 /*
 .name {
     display: inline;

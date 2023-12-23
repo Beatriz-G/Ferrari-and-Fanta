@@ -392,15 +392,18 @@ header img {
         border: none;
         border-radius: none;
         margin-right: 60%;
-        float:initial;
-        display: flex;
-        
+        display:block;
     }
     
+    .img {
+        flex: block;
+    
+    }
+
     .welcome {
         padding: 3% 10%;
-        width: 60%;
-        display:block;
+        width: 30%;
+        
     }
     
     .welcome h2 {

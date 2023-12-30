@@ -384,20 +384,20 @@ header img {
 
     /*Header image and intro*/
 
-    header img {
+    .welcome img {
         width: 30%;
         height: auto;
         border: none;
         border-radius: none;
-       
+       display: inline;
     }
     
 .welcome {
-    display: block;
+   
     width: 70%;
     height: auto;
     border-radius: none;
-    border: none
+    border: none;
     justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
@@ -419,16 +419,20 @@ header img {
     .welcome h2 {
         font-size: 280%;
         flex: 1;
-        width: 30%;
+        display: inline-block;
+        
     }
     
     .welcome h3 {
         font-size: 130%;
+        display: flex;
+        flex: 1;
     }
     
     .welcome h4 {
         font-size: 100%;
-        line-height: 140%;
+        line-height: none;
+        display: inline-block;
         
     }
 

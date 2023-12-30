@@ -384,25 +384,70 @@ header img {
 
     /*Header image and intro*/
 
-    .welcome img {
-        width: 30%;
+    header img {
+        width: 35%;
         height: auto;
         border: none;
-        border-radius: none;
-        display: inline;
+        border-radius: flex;
+        display: inline-block;
+        
     }
     
-.welcome {
-   
-    width: 70%;
+    .welcome {
+        width: 100%;
+    
+        padding-bottom: 20%;
+        
+    }
+
+    .welcome h2 {
+        font-size: 240%;
+        display: inline;
+        width: 60%;
+        float: right;
+        padding-right: 60%;
+    }
+
+    .welcome h3 {
+        font-size: 140%;
+        flex: 1;
+        display: inline;
+        
+        float:left;
+        padding-right: 40%;
+        
+    }
+
+    .welcome h4 {
+        font-size: 100%;
+        line-height: none;
+        display: inline;
+        width: 100%;
+        float: right;
+    }
+
+jhghjedrftgyhujimk
+
+
+
+
+/*    .welcome {
+    display: inline;
+    width: 100%;
     height: auto;
     border-radius: none;
     border: none;
     justify-content: space-evenly;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     margin: auto;
+    text-align: right;
+    background-color: black;
+    padding: 10% 5%;
+    position:static;
 }
+/*
+
 
 
 /*
@@ -410,30 +455,42 @@ header img {
         padding: 0 0 3% 10%;
         width: 70%;
         height: auto;
-        
         margin-bottom: 1%; 
-
     }
-    */
-    
-    .welcome h2 {
+
+        .welcome h2 {
         font-size: 280%;
         flex: 1;
-        display: inline-block;
+        display: inline;
+        width: 30%;
         
     }
     
     .welcome h3 {
         font-size: 130%;
-        display: flex;
-        flex: 1;
+        display: block;
+        
+        width: 30%;
     }
+
+
+font-size: 130%;
+        display: block;
+        width: 40%;
+        float: right;
+
+
     
     .welcome h4 {
         font-size: 100%;
         line-height: none;
-        display: inline-block;
-        
+        display: block;
+        width: 40%;
     }
+
+
+    */
+    
+
 
 }

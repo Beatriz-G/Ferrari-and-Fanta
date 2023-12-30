@@ -387,7 +387,7 @@ header img {
     header img {
         width: 30%;
         height: auto;
-        border: none;
+        border: solid black 5px;
         border-radius: flex;
         display: block;
         float: left;
@@ -401,6 +401,7 @@ header img {
         padding-bottom: 25%;
         display:block;
         text-align: left;
+        
     }
 
     .welcome h2 {
@@ -411,90 +412,6 @@ header img {
         
         
     }
-
-    .welcome h3 {
-        font-size: 140%;
-        flex: 1;
-        display: inline;
-        width: 40%;
-        float:left;
-        padding-right: 40%;
-        
-    }
-
-    .welcome h4 {
-        font-size: 100%;
-        line-height: none;
-        display: inline;
-        width: 100%;
-        float: right;
-    }
-
-jhghjedrftgyhujimk
-
-
-
-
-/*    .welcome {
-    display: inline;
-    width: 100%;
-    height: auto;
-    border-radius: none;
-    border: none;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: right;
-    margin: auto;
-    text-align: right;
-    background-color: black;
-    padding: 10% 5%;
-    position:static;
-}
-/*
-
-
-
-/*
-    .welcome {
-        padding: 0 0 3% 10%;
-        width: 70%;
-        height: auto;
-        margin-bottom: 1%; 
-    }
-
-        .welcome h2 {
-        font-size: 280%;
-        flex: 1;
-        display: inline;
-        width: 30%;
-        
-    }
-    
-    .welcome h3 {
-        font-size: 130%;
-        display: block;
-        
-        width: 30%;
-    }
-
-
-font-size: 130%;
-        display: block;
-        width: 40%;
-        float: right;
-
-
-    
-    .welcome h4 {
-        font-size: 100%;
-        line-height: none;
-        display: block;
-        width: 40%;
-    }
-
-
-    */
-    
 
 
 }

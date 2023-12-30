@@ -105,23 +105,25 @@ header img {
 }
 
 .welcome h2 {
-    font-size: 180%;
+    font-size: 200%;
 }
 
-.welcome h3 {
-    font-size: 130%;
+.h3 {
+    font-size: 80%;
+    color:rgb(13, 60, 13);
 }
 
-.welcome h4 {
-    font-size: 100%;
+.h4 {
+    font-size: 60%;
     line-height: 140%;
+    color:rgb(48, 41, 41);
 }
 
 /*****ABOUT*****/
 
 #about {
     padding: 5% 0 5% 10%;
-    background-color: #396a51;
+    background-color: #377253;
 }
 
 .body h2 {
@@ -409,7 +411,6 @@ header img {
         width: 60%;
         float: right;        
     }
-
 
     .h3 {
         font-size: 80%;

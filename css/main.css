@@ -389,31 +389,36 @@ header img {
         height: auto;
         border: none;
         border-radius: none;
-        margin-right: 60%;
-        display: block;
-        justify-content:left;
-        
+       
     }
     
-    .img {
-        float:inherit;
-        display: grid;
-    }
+.welcome {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: none;
+    border: none
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
 
+
+/*
     .welcome {
-        padding: 0 0 3% 0;
+        padding: 0 0 3% 10%;
         width: 70%;
         height: auto;
-        display: inline-block;
+        
         margin-bottom: 1%; 
-        display: right;
+
     }
+    */
     
     .welcome h2 {
         font-size: 280%;
         flex: 1;
-        float:right;
-        
         width: 30%;
     }
     

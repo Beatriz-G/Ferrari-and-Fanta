@@ -385,34 +385,37 @@ header img {
     /*Header image and intro*/
 
     header img {
-        width: 35%;
+        width: 30%;
         height: auto;
         border: none;
         border-radius: flex;
-        display: inline-block;
+        display: block;
+        float: right;
+        margin-right: 10%;
         
     }
     
     .welcome {
         width: 100%;
-    
-        padding-bottom: 20%;
-        
+        padding-right: 10%;
+        padding-bottom: 35%;
+        display: inline;
+        text-align: left;
     }
 
     .welcome h2 {
-        font-size: 240%;
-        display: inline;
-        width: 60%;
-        float: right;
-        padding-right: 60%;
+        font-size: 150%;
+        display: block;
+        width: 50%;
+        
+        
     }
 
     .welcome h3 {
         font-size: 140%;
         flex: 1;
         display: inline;
-        
+        width: 40%;
         float:left;
         padding-right: 40%;
         

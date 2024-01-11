@@ -423,4 +423,21 @@ header img {
         color: rgb(99, 38, 16);
     }
 
+    /*ABOUT*/
+
+    .body h2 {
+        font-size: 280%;
+    }
+    
+    .body h3 {
+        font-size: 160%;
+    }
+    
+    .body p {
+        font-size: 130%;
+    }
+
+
+
+
 }

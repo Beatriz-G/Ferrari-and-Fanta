@@ -349,7 +349,7 @@ header img {
 
 /*****MEDIA SCREEN DESKTOP*****/
 
-@media screen and (min-width: 1020px)  {
+@media screen and (min-width: 1200px)  {
 
     #intro {
         width: 100%;   
@@ -398,10 +398,11 @@ header img {
     
     .welcome {
         width: 100%;
-        padding-right: 10%;
-        padding-bottom: 25%;
+        padding: 0 10% 25% 7%;
+   
         display:block;
         text-align: left;
+        height: auto;
         
     }
 

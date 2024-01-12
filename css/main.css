@@ -341,9 +341,7 @@ header img {
     .text {
         font-size: 130%;
         width: 100%;
-        
         padding-right: 10%;
-    
     }
 }
 
@@ -399,11 +397,9 @@ header img {
     .welcome {
         width: 100%;
         padding: 0 10% 25% 7%;
-   
         display:block;
         text-align: left;
         height: auto;
-        
     }
 
     .welcome h2 {
@@ -437,7 +433,46 @@ header img {
         font-size: 130%;
     }
 
+    /*HEALTH*/
+    .health-safety h2 {
+        font-size: 280%;
+    }
+    
+    .health-safety h3 {
+        font-size: 160%;
+    }
+    
+    .health-safety p {
+        font-size: 130%;
+    }
 
+    /*ABILITIES*/
 
+    .abilities h2 {
+        font-size: 280%;
+    }
+    
+    .abilities p {
+        font-size: 170%;
+    }
+
+    /*SLIDESHOW*/
+    .images h2 {
+        font-size: 280%;
+    }
+
+    .text {
+        font-size: 190%;
+        margin-top: 5%;
+        
+    }
+
+    .img-section img {
+        vertical-align: middle;
+        border-radius: 10%;
+        max-width: 50%;
+        margin-left: 23%;
+        margin-bottom: 8%;
+    }
 
 }

@@ -463,12 +463,12 @@ header img {
 
     .text {
         font-size: 190%;
-        margin-top: 5%;
-        
+        margin-bottom: 12%;
+        display: block;
+        margin-left: 5%;
     }
 
     .img-section img {
-        vertical-align: middle;
         border-radius: 10%;
         max-width: 50%;
         margin-left: 23%;

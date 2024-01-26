@@ -460,6 +460,7 @@ header img {
     /*SLIDESHOW*/
     .images h2 {
         font-size: 280%;
+        margin-right: 4%;
     }
 
     .text {
@@ -474,7 +475,7 @@ header img {
 
     .img-section img {
         border-radius: 10%;
-        max-width: 50%;
+        max-width: 48%;
         margin-left: 23%;
         margin-bottom: 8%;
     }

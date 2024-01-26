@@ -269,7 +269,7 @@ header img {
     font-size: 100%;
 }
 
-.name {
+.website {
     color: rgb(112, 25, 25);
 }
 
@@ -377,7 +377,6 @@ header img {
         color: beige;
         flex-wrap: wrap;
         display: flex;
-    
     }
 
     .name nav ul li a:hover {
@@ -496,7 +495,8 @@ header img {
     }
     
     .end h3 {
-        font-size: 200%;
+        font-size: 100%;
+        background-color: none;
     }
     
     .name {

@@ -260,6 +260,10 @@ header img {
     font-size: 250%;
 }
 
+.find .adopt a {
+    color: green;
+}
+
 .end {
     padding: 5% 0 3% 0;
 }
@@ -492,6 +496,12 @@ header img {
     .icon-link a i {
         color:rgb(29, 83, 29);
         font-size: 250%;
+    }
+
+    .find .adopt {
+        color: rgb(70, 5, 5);
+        font-size: 120%;
+        
     }
     
     .end {

@@ -12,3 +12,9 @@
   less time consuming but none the less challenging. </p>
 
 <p>I hope you find this website fun and educational. I also hope that it inspires you to adopt from your local shelter.</p>
+
+<h2>Contributing</h2>
+You are welcome to make contributions! I am always open to hearing new ideas, suggestions or corrections! If you find any bugs or code that doesn't make sense, open up an issue and let me know. 
+
+<h3>Instructions on Contributing</h3>
+<p>Fork the repository. Clone the forked repo. Add your contributions, notes, changes. Commit, push and wait for the pull request to merged. Thanks!</p>

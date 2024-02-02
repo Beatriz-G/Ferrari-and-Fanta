@@ -16,5 +16,5 @@
 <h2>Contributing</h2>
 You are welcome to make contributions! I am always open to hearing new ideas, suggestions or corrections! If you find any bugs or code that doesn't make sense, open up an issue and let me know. 
 
-<h3>Instructions on Contributing</h3>
+<h2>Instructions on Contributing</h2>
 <p>Fork the repository. Clone the forked repo. Add your contributions, notes, changes. Commit, push and wait for the pull request to merged. Thanks!</p>
